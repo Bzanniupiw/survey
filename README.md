@@ -47,10 +47,7 @@ Unlike static taxonomies that classify only the final erroneous response, our or
   - [Attribution and Localization](#attribution-and-localization)
   - [Mitigation](#mitigation)
 - [Benchmarks and Metrics](#benchmarks-and-metrics)
-- [Open Challenges](#open-challenges)
 - [Contributing](#contributing)
-- [Citation](#citation)
-- [Acknowledgments](#acknowledgments)
 
 ## 🗺️ Overall Framework
 
@@ -439,20 +436,6 @@ Mitigation methods are organized by the lifecycle stage they target. This alignm
 
 An important open need is a unified benchmark that follows one error across **origin, cross-agent transmission, group acceptance, aggregation, memory write, and later reactivation**.
 
-## 🚧 Open Challenges
-
-1. **Unified definitions, datasets, and evaluation.** Existing benchmarks isolate tools, memory, trajectories, or attribution. The field still lacks a hierarchical evaluation framework spanning the complete lifecycle, especially for naturally occurring errors in open environments and long-running interactions.
-
-2. **Measuring meaningful agent diversity.** More agents, different role prompts, or even heterogeneous models do not guarantee independent evidence or reasoning. Future work should directly measure diversity in knowledge, evidence, reasoning paths, and error correlation.
-
-3. **Reliable communication and memory provenance.** Natural-language messages can lose qualifiers, uncertainty, and causal dependencies through repeated summarization. Systems need fine-grained provenance, dependency tracking, contamination-range estimation, targeted rollback, and safe re-admission policies.
-
-4. **From detection to causal attribution and targeted repair.** It is necessary to distinguish the agent that **originated** an error from those that **propagated**, **amplified**, or **made it decision-critical**. Attribution should trigger localized recomputation, evidence supplementation, communication blocking, memory withdrawal, or re-aggregation.
-
-5. **Verifier and judge reliability.** Critic, verifier, and judge agents can themselves hallucinate or exhibit position, confirmation, authority, and agreeableness biases. Adding another model is not automatically a reliable safeguard.
-
-6. **Reliability–cost trade-offs.** More agents and debate rounds increase tokens, latency, and compute without guaranteed accuracy gains. Risk-aware systems should trigger collaboration, retrieval, verification, or memory inspection only when uncertainty, disagreement, evidence gaps, and task consequences justify the cost.
-
 ## 🤝 Contributing
 
 We welcome pull requests that add new papers, correct metadata, improve the taxonomy, or contribute benchmark and code links.
@@ -469,7 +452,7 @@ A paper should make a substantive contribution to at least one of the following:
 ### 🧩 Suggested entry format
 
 ~~~markdown
-- **Venue Year** — [Paper title](paper-url) · [Code](code-url) · [Dataset](dataset-url)
+- Venue Year — [Paper title](paper-url) · [Code](code-url) · [Dataset](dataset-url)
 ~~~
 
 When opening a pull request, please:
