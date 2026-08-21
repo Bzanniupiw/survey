@@ -15,6 +15,7 @@
 
 </div>
 
+<a id="overview"></a>
 ## 👋 Overview
 
 This repository is the companion reading list for our survey on **hallucination in LLM-based multi-agent systems (MAS)**.
@@ -49,6 +50,7 @@ Unlike static taxonomies that classify only the final erroneous response, our or
 - [Benchmarks and Metrics](#benchmarks-and-metrics)
 - [Contributing](#contributing)
 
+<a id="overall-framework"></a>
 ## 🗺️ Overall Framework
 
 ![overview](README.assets/overview.png)
@@ -57,6 +59,7 @@ Unlike static taxonomies that classify only the final erroneous response, our or
   <em>Figure 1. The full lifecycle of multi-agent hallucination, together with detection, attribution and localization, and lifecycle-aligned mitigation.</em>
 </p>
 
+<a id="taxonomy"></a>
 ## 🧭 Taxonomy
 
 The framework above traces how a local error can evolve into a persistent system-level failure. The table below provides a compact, searchable version of the taxonomy.
@@ -72,8 +75,10 @@ The framework above traces how a local error can evolve into a persistent system
 
 > **Scope note.** A paper may fit more than one category. We place each work under its primary contribution and cross-reference it when necessary. Preprints are marked as **arXiv**; venue metadata should be updated when a paper is formally published.
 
+<a id="paper-list"></a>
 ## 📚 Paper List
 
+<a id="stage-i-hallucination-origin"></a>
 ### 🧬 Stage I: Hallucination Origin
 
 #### 1. Intrinsic single-agent hallucination
@@ -173,6 +178,7 @@ The framework above traces how a local error can evolve into a persistent system
 - 📄 **arXiv 2026** — [Minority Sentinel: When to Overturn Majority Voting in Multi-Agent LLM Debates](https://arxiv.org/abs/2606.29270)
 - 📄 **arXiv 2026** — [The Consensus Trap: Rescuing Multi-Agent LLMs from Adversarial Majorities via Token-Level Collaboration](https://arxiv.org/abs/2604.17139)
 
+<a id="stage-ii-propagation-and-amplification"></a>
 ### 🔄 Stage II: Propagation and Amplification
 
 #### 1. Information compression and semantic drift
@@ -212,6 +218,7 @@ The framework above traces how a local error can evolve into a persistent system
 - 📄 **ACL 2026** — [When Identity Skews Debate: Anonymization for Bias-Reduced Multi-Agent Reasoning](https://aclanthology.org/2026.acl-long.650/)
 - 📄 **arXiv 2026** — [Conformity Dynamics in LLM Multi-Agent Systems: The Roles of Topology and Self-Social Weighting](https://arxiv.org/abs/2601.05606)
 
+<a id="stage-iii-system-level-outcomes"></a>
 ### 🎯 Stage III: System-Level Outcomes
 
 #### 1. Memory contamination
@@ -257,6 +264,7 @@ The framework above traces how a local error can evolve into a persistent system
 - 📄 **arXiv 2026** — [Collaborative Disagreement Resolution for Scalable Oversight](https://arxiv.org/abs/2607.01251)
 - 📄 **ICLR Workshop 2026** — [When AI Agents Disagree Like Humans: Reasoning Trace Analysis for Human-AI Collaborative Moderation](https://arxiv.org/abs/2604.03796)
 
+<a id="detection"></a>
 ### 🔍 Detection
 
 #### 1. Internal-state, uncertainty, and self-consistency detection
@@ -316,6 +324,7 @@ The framework above traces how a local error can evolve into a persistent system
 - 📄 **ACL 2026** — [MARCH: Multi-Agent Reinforced Check for Hallucination](https://aclanthology.org/2026.acl-long.1828/)
 - 📄 **FLINS-ISKE 2026** — [A Multi-Agent Framework for Factuality Hallucination Detection Using Complex Knowledge Graph](https://link.springer.com/chapter/10.1007/978-981-92-2480-7_10)
 
+<a id="attribution-and-localization"></a>
 ### 🧭 Attribution and Localization
 
 #### 1. Internal-state attribution
@@ -354,6 +363,7 @@ The framework above traces how a local error can evolve into a persistent system
 - 📄 **arXiv 2024** — [Interpreting and Mitigating Hallucination in MLLMs through Multi-Agent Debate](https://arxiv.org/abs/2407.20505)
 - 📄 **arXiv 2025** — [MAD-Fact: A Multi-Agent Debate Framework for Long-Form Factuality Evaluation in LLMs](https://arxiv.org/abs/2510.22967)
 
+<a id="mitigation"></a>
 ### 🛡️ Mitigation
 
 Mitigation methods are organized by the lifecycle stage they target. This alignment is important: a communication intervention cannot repair a corrupted knowledge source, and a better voting rule cannot remove a false fact already stored in long-term memory.
@@ -442,6 +452,7 @@ Mitigation methods are organized by the lifecycle stage they target. This alignm
 - 📄 **ICASSP 2025** — [A Self-Evolving Framework for Multi-Agent Medical Consultation Based on Large Language Models](https://ieeexplore.ieee.org/abstract/document/10889517)
 - 📄 **CHI 2025** — [Accurate Insights, Trustworthy Interactions: Designing a Collaborative AI-Human Multi-Agent System with Knowledge Graph for Diagnosis Prediction](https://dl.acm.org/doi/full/10.1145/3706598.3713526)
 
+<a id="benchmarks-and-metrics"></a>
 ## 🧪 Benchmarks and Metrics
 
 ### 📊 Representative benchmarks
@@ -471,6 +482,7 @@ Mitigation methods are organized by the lifecycle stage they target. This alignm
 
 An important open need is a unified benchmark that follows one error across **origin, cross-agent transmission, group acceptance, aggregation, memory write, and later reactivation**.
 
+<a id="contributing"></a>
 ## 🤝 Contributing
 
 We welcome pull requests that add new papers, correct metadata, improve the taxonomy, or contribute benchmark and code links.
