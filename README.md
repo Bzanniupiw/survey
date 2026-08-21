@@ -181,6 +181,7 @@ The framework above traces how a local error can evolve into a persistent system
 - 📄 **arXiv 2026** — [Semantic Register Compression in Multi-Agent LLM Cascades](https://arxiv.org/abs/2607.14119)
 - 📄 **arXiv 2025** — [Why Do AI Agents Communicate in Human Language?](https://arxiv.org/abs/2506.02739)
 - 📄 **ICML 2025** — [Direct Semantic Communication Between Large Language Models via Vector Translation](https://icml.cc/virtual/2025/50492)
+- 📄 **NeurIPS 2025 (Position Track)** — [Large Language Models Miss the Multi-Agent Mark](https://arxiv.org/abs/2505.21298)
 
 #### 2. Topology-driven cascades
 
@@ -195,6 +196,7 @@ The framework above traces how a local error can evolve into a persistent system
 - 📄 **IJCAI 2025** — [Simulating Misinformation Diffusion on Social Media Through CoNVaI](https://www.ijcai.org/proceedings/2025/29)
 - 📄 **ACL 2025** — [Beyond Frameworks: Unpacking Collaboration Strategies in Multi-Agent Systems](https://aclanthology.org/2025.acl-long.1037/)
 - 📄 **ACL 2025** — [MultiAgentBench: Evaluating the Collaboration and Competition of LLM Agents](https://aclanthology.org/2025.acl-long.421/)
+- 📄 **arXiv 2026** — [Conformity Dynamics in LLM Multi-Agent Systems: The Roles of Topology and Self-Social Weighting](https://arxiv.org/abs/2601.05606)
 
 #### 3. Social influence, conformity, and trust mismatch
 
@@ -238,6 +240,8 @@ The framework above traces how a local error can evolve into a persistent system
 - 📄 **NeurIPS 2023** — [Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena](https://proceedings.neurips.cc/paper_files/paper/2023/hash/91f18a1287b398d378ef22505bf41832-Abstract-Datasets_and_Benchmarks.html)
 - 📄 **ACL 2024** — [Exploring Collaboration Mechanisms for LLM Agents: A Social Psychology View](https://aclanthology.org/2024.acl-long.782/)
 - 📄 **NeurIPS 2025** — [Debate or Vote: Which Yields Better Decisions in Multi-Agent Large Language Models?](https://papers.nips.cc/paper_files/paper/2025/hash/934252acd87f254d5d4672fbde283bd2-Abstract-Conference.html)
+- 📄 **arXiv 2026** — [Misinformation Propagation in Benign Multi-Agent Systems](https://arxiv.org/abs/2606.16710)
+- 📄 **AAAI Workshop on Multi-Agent Systems 2025** — [Reliable Decision-Making for Multi-Agent LLM Systems](https://multiagents.org/2025_artifacts/reliable_decision_making_for_multi_agent_llm_systems.pdf)
 
 #### 3. Persistent cross-agent disagreement
 
@@ -251,6 +255,7 @@ The framework above traces how a local error can evolve into a persistent system
 - 📄 **ICML 2024** — [Should We Be Going MAD? A Look at Multi-Agent Debate Strategies for LLMs](https://proceedings.mlr.press/v235/smit24a.html)
 - 📄 **arXiv 2025** — [Reaching Agreement Among Reasoning LLM Agents](https://arxiv.org/abs/2512.20184)
 - 📄 **arXiv 2026** — [Collaborative Disagreement Resolution for Scalable Oversight](https://arxiv.org/abs/2607.01251)
+- 📄 **ICLR Workshop 2026** — [When AI Agents Disagree Like Humans: Reasoning Trace Analysis for Human-AI Collaborative Moderation](https://arxiv.org/abs/2604.03796)
 
 ### 🔍 Detection
 
@@ -265,6 +270,9 @@ The framework above traces how a local error can evolve into a persistent system
 - 📄 **ICLR 2025** — [HaDeMiF: Hallucination Detection and Mitigation in Large Language Models](https://proceedings.iclr.cc/paper_files/paper/2025/hash/c98987c5ec4f30920d7190dc699e3daf-Abstract-Conference.html)
 - 📄 **IJCAI 2025** — [Detecting Hallucination in Large Language Models Through Deep Internal Representation Analysis](https://www.ijcai.org/proceedings/2025/929)
 - 📄 **ACL 2025** — [ICR Probe: Tracking Hidden State Dynamics for Reliable Hallucination Detection in LLMs](https://aclanthology.org/2025.acl-long.880/)
+- 📄 **ICCV 2025** — [Hallucinatory Image Tokens: A Training-free EAZY Approach to Detecting and Mitigating Object Hallucinations in LVLMs](https://openaccess.thecvf.com/content/ICCV2025/html/Che_Hallucinatory_Image_Tokens_A_Training-free_EAZY_Approach_to_Detecting_and_ICCV_2025_paper.html)
+- 📄 **NeurIPS 2025** — [Beyond Token Probes: Hallucination Detection via Activation Tensors with ACT-ViT](https://proceedings.neurips.cc/paper_files/paper/2025/hash/7b8694d58c34b9bec9c2f29735c3a250-Abstract-Conference.html)
+- 📄 **AAAI 2026** — [Joint Evaluation of Answer and Reasoning Consistency for Hallucination Detection in Large Reasoning Models](https://ojs.aaai.org/index.php/AAAI/article/view/40624)
 
 #### 2. External knowledge and tool-grounded detection
 
@@ -305,6 +313,8 @@ The framework above traces how a local error can evolve into a persistent system
 - 📄 **Findings of ACL 2026** — [GAVEL: Evidence-Contract Debate with Mechanized Scrutiny for Provenance-Grounded Fact-Checking](https://aclanthology.org/2026.findings-acl.1789)
 - 📄 **arXiv 2026** — [Source or It Didn't Happen: A Multi-Agent Framework for Citation Hallucination Detection](https://arxiv.org/abs/2605.08583)
 - 📄 **arXiv 2026** — [OptArgus: A Multi-Agent System to Detect Hallucinations in LLM-Based Optimization Modeling](https://arxiv.org/abs/2605.11738)
+- 📄 **ACL 2026** — [MARCH: Multi-Agent Reinforced Check for Hallucination](https://aclanthology.org/2026.acl-long.1828/)
+- 📄 **FLINS-ISKE 2026** — [A Multi-Agent Framework for Factuality Hallucination Detection Using Complex Knowledge Graph](https://link.springer.com/chapter/10.1007/978-981-92-2480-7_10)
 
 ### 🧭 Attribution and Localization
 
@@ -360,6 +370,12 @@ Mitigation methods are organized by the lifecycle stage they target. This alignm
 - 📄 **NeurIPS 2024** — [IRCAN: Mitigating Knowledge Conflicts in LLM Generation via Identifying and Reweighting Context-Aware Neurons](https://proceedings.neurips.cc/paper_files/paper/2024/hash/08a9e28c96d016dd63903ab51cd085b0-Abstract-Conference.html)
 - 📄 **ICLR 2024** — [CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing](https://arxiv.org/abs/2305.11738)
 - 📄 **NeurIPS 2024** — [Multi-LLM Debate: Framework, Principles, and Interventions](https://proceedings.neurips.cc/paper_files/paper/2024/file/32e07a110c6c6acf1afbf2bf82b614ad-Paper-Conference.pdf)
+- 📄 **EMNLP 2025** — [Retrieval-Augmented Generation with Estimation of Source Reliability](https://aclanthology.org/2025.emnlp-main.1738/)
+- 📄 **ACL 2025** — [Removal of Hallucination on Hallucination: Debate-Augmented RAG](https://aclanthology.org/2025.acl-long.770/)
+- 📄 **Journal of King Saud University 2025** — [Adaptive Heterogeneous Multi-Agent Debate for Enhanced Educational and Factual Reasoning in Large Language Models](https://link.springer.com/article/10.1007/s44443-025-00353-3)
+- 📄 **SIGIR AgentSearch Workshop 2026** — [Minority Sentinel: When to Overturn Majority Voting in Multi-Agent LLM Debates](https://arxiv.org/abs/2606.29270)
+- 📄 **ACL 2025** — [Advancing Collaborative Debates with Role Differentiation through Multi-Agent Reinforcement Learning](https://aclanthology.org/2025.acl-long.1105/)
+- 📄 **ACL 2025** — [Multiple LLM Agents Debate for Equitable Cultural Alignment](https://aclanthology.org/2025.acl-long.1210/)
 
 #### 2. Limiting propagation and amplification
 
@@ -375,6 +391,9 @@ Mitigation methods are organized by the lifecycle stage they target. This alignm
 - 📄 **ACL 2025** — [G-Safeguard: A Topology-Guided Security Lens and Treatment on LLM-Based Multi-Agent Systems](https://aclanthology.org/2025.acl-long.359/)
 - 📄 **Findings of EMNLP 2024** — [Improving Multi-Agent Debate with Sparse Communication Topology](https://aclanthology.org/2024.findings-emnlp.427/)
 - 📄 **EMNLP 2025** — [Understanding the Information Propagation Effects of Communication Topologies in LLM-Based Multi-Agent Systems](https://aclanthology.org/2025.emnlp-main.623/)
+- 📄 **ACL 2026** — [When Identity Skews Debate: Anonymization for Bias-Reduced Multi-Agent Reasoning](https://aclanthology.org/2026.acl-long.650/)
+- 📄 **arXiv 2026** — [From Spark to Fire: Modeling and Mitigating Error Cascades in LLM-Based Multi-Agent Collaboration](https://arxiv.org/abs/2603.04474)
+- 📄 **arXiv 2026** — [Collective Hallucination in Multi-Agent LLMs: Modeling and Defense](https://arxiv.org/abs/2606.07941)
 
 #### 3. Repairing system-level outputs
 
@@ -389,6 +408,10 @@ Mitigation methods are organized by the lifecycle stage they target. This alignm
 - 📄 **arXiv 2026** — [MemGuard: Preventing Memory Contamination in Long-Term Memory-Augmented Large Language Models](https://arxiv.org/abs/2605.28009)
 - 📄 **arXiv 2026** — [Adaptive Memory Admission Control for LLM Agents](https://arxiv.org/abs/2603.04549)
 - 📄 **arXiv 2026** — [Escaping the Self-Confirmation Trap: An Execute-Distill-Verify Paradigm for Agentic Experience Learning](https://arxiv.org/abs/2606.24428)
+- 📄 **NeurIPS 2025** — [Multi-Agent Debate for LLM Judges with Adaptive Stability Detection](https://arxiv.org/abs/2510.12697)
+- 📄 **arXiv 2026** — [Auditing Multi-Agent LLM Reasoning Trees Outperforms Majority Vote and LLM-as-Judge](https://arxiv.org/abs/2602.09341)
+- 📄 **EACL 2026** — [DART: Leveraging Multi-Agent Disagreement for Tool Recruitment in Multimodal Reasoning](https://aclanthology.org/2026.eacl-long.253/)
+- 📄 **arXiv 2026** — [Tool-MAD: A Multi-Agent Debate Framework for Fact Verification with Diverse Tool Augmentation and Adaptive Retrieval](https://arxiv.org/abs/2601.04742)
 
 #### 4. Multi-agent collaborative mitigation
 
@@ -406,6 +429,18 @@ Mitigation methods are organized by the lifecycle stage they target. This alignm
 - 📄 **arXiv 2024** — [Interpreting and Mitigating Hallucination in MLLMs through Multi-Agent Debate](https://arxiv.org/abs/2407.20505)
 - 📄 **arXiv 2026** — [Trust but Verify: Mitigating Medical Hallucinations via Post-Hoc Adversarial Auditing and Multi-Agent Feedback Loops](https://arxiv.org/abs/2606.14149)
 - 📄 **arXiv 2025** — [HiMATE: A Hierarchical Multi-Agent Framework for Machine Translation Evaluation](https://arxiv.org/abs/2505.16281)
+- 📄 **Knowledge-Based Systems 2025** — [Coordinated LLM Multi-Agent Systems for Collaborative Question-Answer Generation](https://www.sciencedirect.com/science/article/pii/S0950705125016661)
+- 📄 **AAAI 2026** — [Multi-Agent Analysis with Decoupled Evaluation for Hallucination-Resistant Sarcasm Detection](https://ojs.aaai.org/index.php/AAAI/article/view/40200)
+- 📄 **Expert Systems with Applications 2026** — [Socratic Elenchus-Inspired Multi-Agent Debate for Mitigating Hallucinations in Large Language Models](https://www.sciencedirect.com/science/article/pii/S0957417426011218)
+- 📄 **Applied Sciences 2025** — [Minimizing Hallucinations and Communication Costs: Adversarial Debate and Voting Mechanisms in LLM-Based Multi-Agents](https://uh-ir.tdl.org/server/api/core/bitstreams/78404aab-7809-4d72-8bd5-be0a17b75f90/content)
+- 📄 **CCL 2025** — [System Report for CCL25-Eval Task 3: Hallucination Mitigation in Chinese Abstract Meaning Representation Parsing with a Multi-Agent Approach](https://aclanthology.org/2025.ccl-2.9/)
+- 📄 **arXiv 2026** — [A Novel Multi-Agent Architecture to Reduce Hallucinations of Large Language Models in Multi-Step Structural Modeling](https://arxiv.org/abs/2603.07728)
+- 📄 **arXiv 2025** — [Hallucination Mitigation Using Agentic AI Natural Language-Based Frameworks](https://arxiv.org/abs/2501.13946)
+- 📄 **Information Processing & Management 2026** — [Towards Higher Quality and Fewer Hallucinations: A Multi-Agent Collaboration Framework for LLMs](https://www.sciencedirect.com/science/article/pii/S0306457326003444)
+- 📄 **ECAI 2024** — [Multi-Agent Planning Using Visual Language Models](https://arxiv.org/abs/2408.05478)
+- 📄 **Information Processing & Management 2025** — [DelphiAgent: A Trustworthy Multi-Agent Verification Framework for Automated Fact Verification](https://www.sciencedirect.com/science/article/pii/S0306457325001827)
+- 📄 **ICASSP 2025** — [A Self-Evolving Framework for Multi-Agent Medical Consultation Based on Large Language Models](https://ieeexplore.ieee.org/abstract/document/10889517)
+- 📄 **CHI 2025** — [Accurate Insights, Trustworthy Interactions: Designing a Collaborative AI-Human Multi-Agent System with Knowledge Graph for Diagnosis Prediction](https://dl.acm.org/doi/full/10.1145/3706598.3713526)
 
 ## 🧪 Benchmarks and Metrics
 
