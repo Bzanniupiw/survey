@@ -54,7 +54,7 @@ Unlike static taxonomies that classify only the final erroneous response, our or
 ## 🗺️ Overall Framework
 
 ![overview](README.assets/overview.png)
-
+ 
 <p align="center">
   <em>Figure 1. The full lifecycle of multi-agent hallucination, together with detection, attribution and localization, and lifecycle-aligned mitigation.</em>
 </p>
